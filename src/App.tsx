@@ -1,5 +1,7 @@
+import { LinearSearchView } from "./features/LinearSearch/LinearSearchView";
+
 function App() {
-  return <>some text</>;
+  return <LinearSearchView />;
 }
 
 export default App;
