@@ -40,7 +40,7 @@ export const LinearSearchView = () => {
 
         <div>
           {arr.map((el, i) => (
-            <div>{el}</div>
+            <div key={i}>{el}</div>
           ))}
         </div>
 
